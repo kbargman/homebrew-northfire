@@ -12,6 +12,8 @@ cask "northfire" do
   homepage "https://northfire.dev/"
 
   auto_updates true
+  depends_on macos: ">= :monterey"
+
   app "Northfire.app"
 
   zap trash: [
