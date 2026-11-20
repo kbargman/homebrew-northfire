@@ -2,9 +2,9 @@
 cask "northfire" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.6.0"
-  sha256 arm:   "ed3f85ad157cda287a90dda950cf3cfcd212c70f85ad34442b17a18ffb2f6002",
-         intel: "470b9288a6d47eb20611a6e7dc569cb8772bbd18de56aaf5c45a92c0d6b2ff32"
+  version "1.6.1"
+  sha256 arm:   "88d60b1a5ff78bab3f4e31380553c1fcd33c10850d5dee0f295ab46ad3470705",
+         intel: "5ba2ec2fd7222608c49e71d7be7cc200fcdde8d9cd423f117a6907a92e30dfe5"
 
   url "https://github.com/kbargman/northfire-releases/releases/download/v#{version}/Northfire-#{version}-mac-#{arch}.dmg"
   name "Northfire"
